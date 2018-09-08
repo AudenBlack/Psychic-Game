@@ -1,0 +1,27 @@
+
+* {
+    margin: auto;
+}
+
+h1 {
+    color: darkgray;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    lighting-color: bisque;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Tahoma';
+    background-color: white;
+    background-blend-mode: luminosity;
+}
+
+container {
+    margin: auto;
+    padding: 20%;
+}
+
+
+
