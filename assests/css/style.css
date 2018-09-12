@@ -5,23 +5,44 @@
 
 h1 {
     color: darkgray;
-    font-style: italic;
-    font-size: 20px;
+    font-style: solid;
+    font-size: 35px;
     text-align: center;
-    lighting-color: bisque;
 }
 
 body {
-    font-size: 18px;
-    font-family: 'Tahoma';
-    background-color: white;
-    background-blend-mode: luminosity;
+    font-size: 20px;
+    font-family: 'Cambria';
+    background-image: url("../images/LetterScramble.jpg");
+    background-repeat: no-repeat;
+    width: 100%; 
+    background-position-x: center;
+    background-position-y: -20px;
 }
 
-container {
+.container-img {
     margin: auto;
     padding: 20%;
+    background-image: url("../images/Raining\ Letters.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 275px;
+    background-position-x: 525px;
+    width: 1080px;
 }
 
+.instructions {
+color: gray;
+font-size: 25px;
+padding: 50px;
+text-align: center;
+}
 
+#game {
+    text-align: center;
+    line-height: 30px;
+    border: gray solid 10px;
+}
 
+.col-md-3 {
+    color: blue;
+}
